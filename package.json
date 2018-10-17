@@ -26,6 +26,8 @@
     "contributors-generate": "all-contributors generate"
   },
   "dependencies": {
+    "@ts-task/task": "^1.0.0",
+    "@ts-task/utils": "0.0.1",
     "tsns": "0.0.18",
     "typescript": "3.0.1"
   },

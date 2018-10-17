@@ -1,0 +1,13 @@
+                               _
+     /\                       | |
+    /  \   __ _  ___ _ __   __| | __ _
+   / /\ \ / _` |/ _ \ '_ \ / _` |/ _` |
+  / ____ \ (_| |  __/ | | | (_| | (_| |
+ /_/    \_\__, |\___|_| |_|\__,_|\__,_|
+           __/ |
+          |___/
+
+1 - A word on Promises and abstractions
+2 - Why Promises can't be typed on Error
+3 - Introducing Task
+4 - Real example
