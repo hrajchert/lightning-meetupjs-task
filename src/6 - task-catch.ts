@@ -18,8 +18,15 @@ const incPuedeFallar = (n: number) => {
 
 t1
   .map(inc)
-  .pipe(t => t)
   .chain(incPuedeFallar)
+  .pipe(t => t)
+  .catch(e => {
+    if (e instanceof DontLikeNumber) {
+      return Task.resolve(0);
+    } else {
+      return Task.reject(e);
+    }
+  })
   .pipe(t => t)
   .fork(
     error('Ups:'),

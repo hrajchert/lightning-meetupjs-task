@@ -7,7 +7,7 @@
            __/ |
           |___/
 
-1 - A word on Promises and abstractions
-2 - Why Promises can't be typed on Error
-3 - Introducing Task
-4 - Real example
+1 - Sobre promesas y abstracciones
+2 - Por qué las promesas no se pueden tipar en el error
+3 - Hola Task!
+4 - Ejemplo real de API de Acamica
